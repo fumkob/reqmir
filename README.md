@@ -20,6 +20,9 @@ You don't need to change your `xcode-select` setting. `make` looks up the Xcode 
 ```sh
 make help     # list the targets
 make doctor   # show the Xcode, Swift, and simulators in use
+make build    # build the Swift package
+make test     # run the tests on macOS
+make test-ios # run the tests on the iOS simulator (override with IOS_DEVICE / IOS_OS)
 ```
 
 ## License

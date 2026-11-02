@@ -1,6 +1,12 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help doctor
+.PHONY: help doctor build test test-ios
+
+# iPhone Duo is the only iOS 27.1 device on the GitHub runner image.
+IOS_DEVICE ?= iPhone Duo
+IOS_OS ?= 27.1
+# The scheme Xcode generates for the whole package; the per-library schemes have no tests.
+IOS_SCHEME ?= reqmir-Package
 
 # $(shell ...) returns an empty string and carries on even when the command fails. Unless we
 # stop here, builds would silently run with whichever Xcode xcode-select points at.
@@ -25,3 +31,13 @@ doctor: ## Show the Xcode, Swift, iOS runtimes, and simulator devices in use
 	@echo
 	@echo "Available simulator devices:"
 	@xcrun simctl list devices available iOS
+
+build: ## Build the Swift package
+	swift build
+
+test: ## Run the package tests on macOS
+	swift test
+
+test-ios: ## Run the package tests on the iOS simulator (IOS_DEVICE, IOS_OS)
+	xcodebuild test -quiet -scheme '$(IOS_SCHEME)' \
+		-destination 'platform=iOS Simulator,name=$(IOS_DEVICE),OS=$(IOS_OS)'
