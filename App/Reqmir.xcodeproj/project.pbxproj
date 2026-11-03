@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 110;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5066C423309984F5008643AF /* ReqmirProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = 5066C422309984F5008643AF /* ReqmirProtocol */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		50E7F680309982DB00C8B3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E7F66A309982DA00C8B3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E7F671309982DA00C8B3CC;
+			remoteInfo = Reqmir;
+		};
+		50E7F68A309982DB00C8B3CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 50E7F66A309982DA00C8B3CC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 50E7F671309982DA00C8B3CC;
+			remoteInfo = Reqmir;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		50E7F672309982DA00C8B3CC /* Reqmir.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reqmir.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E7F67F309982DB00C8B3CC /* ReqmirTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReqmirTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		50E7F689309982DB00C8B3CC /* ReqmirUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReqmirUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		50E7F674309982DA00C8B3CC /* Reqmir */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Reqmir;
+			sourceTree = "<group>";
+		};
+		50E7F682309982DB00C8B3CC /* ReqmirTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReqmirTests;
+			sourceTree = "<group>";
+		};
+		50E7F68C309982DB00C8B3CC /* ReqmirUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ReqmirUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		50E7F66F309982DA00C8B3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+				5066C423309984F5008643AF /* ReqmirProtocol in Frameworks */,
+			);
+		};
+		50E7F67C309982DB00C8B3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+		50E7F686309982DB00C8B3CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			files = (
+			);
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		50E7F669309982DA00C8B3CC = {
+			isa = PBXGroup;
+			children = (
+				50E7F674309982DA00C8B3CC /* Reqmir */,
+				50E7F682309982DB00C8B3CC /* ReqmirTests */,
+				50E7F68C309982DB00C8B3CC /* ReqmirUITests */,
+				50E7F673309982DA00C8B3CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		50E7F673309982DA00C8B3CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				50E7F672309982DA00C8B3CC /* Reqmir.app */,
+				50E7F67F309982DB00C8B3CC /* ReqmirTests.xctest */,
+				50E7F689309982DB00C8B3CC /* ReqmirUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		50E7F671309982DA00C8B3CC /* Reqmir */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E7F691309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "Reqmir" */;
+			buildPhases = (
+				50E7F66E309982DA00C8B3CC /* Sources */,
+				50E7F66F309982DA00C8B3CC /* Frameworks */,
+				50E7F670309982DA00C8B3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			fileSystemSynchronizedGroups = (
+				50E7F674309982DA00C8B3CC /* Reqmir */,
+			);
+			name = Reqmir;
+			packageProductDependencies = (
+				5066C422309984F5008643AF /* ReqmirProtocol */,
+			);
+			productName = Reqmir;
+			productReference = 50E7F672309982DA00C8B3CC /* Reqmir.app */;
+			productType = "com.apple.product-type.application";
+		};
+		50E7F67E309982DB00C8B3CC /* ReqmirTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E7F694309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "ReqmirTests" */;
+			buildPhases = (
+				50E7F67B309982DB00C8B3CC /* Sources */,
+				50E7F67C309982DB00C8B3CC /* Frameworks */,
+				50E7F67D309982DB00C8B3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E7F681309982DB00C8B3CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				50E7F682309982DB00C8B3CC /* ReqmirTests */,
+			);
+			name = ReqmirTests;
+			productName = ReqmirTests;
+			productReference = 50E7F67F309982DB00C8B3CC /* ReqmirTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		50E7F688309982DB00C8B3CC /* ReqmirUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50E7F697309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "ReqmirUITests" */;
+			buildPhases = (
+				50E7F685309982DB00C8B3CC /* Sources */,
+				50E7F686309982DB00C8B3CC /* Frameworks */,
+				50E7F687309982DB00C8B3CC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				50E7F68B309982DB00C8B3CC /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				50E7F68C309982DB00C8B3CC /* ReqmirUITests */,
+			);
+			name = ReqmirUITests;
+			productName = ReqmirUITests;
+			productReference = 50E7F689309982DB00C8B3CC /* ReqmirUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		50E7F66A309982DA00C8B3CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2710;
+				LastUpgradeCheck = 2710;
+				TargetAttributes = {
+					50E7F671309982DA00C8B3CC = {
+						CreatedOnToolsVersion = 27.1;
+					};
+					50E7F67E309982DB00C8B3CC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 50E7F671309982DA00C8B3CC;
+					};
+					50E7F688309982DB00C8B3CC = {
+						CreatedOnToolsVersion = 27.1;
+						TestTargetID = 50E7F671309982DA00C8B3CC;
+					};
+				};
+			};
+			buildConfigurationList = 50E7F66D309982DA00C8B3CC /* Build configuration list for PBXProject "Reqmir" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 50E7F669309982DA00C8B3CC;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				5066C421309984F5008643AF /* XCLocalSwiftPackageReference ".." */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 50E7F673309982DA00C8B3CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				50E7F671309982DA00C8B3CC /* Reqmir */,
+				50E7F67E309982DB00C8B3CC /* ReqmirTests */,
+				50E7F688309982DB00C8B3CC /* ReqmirUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		50E7F670309982DA00C8B3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		50E7F67D309982DB00C8B3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+		50E7F687309982DB00C8B3CC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		50E7F66E309982DA00C8B3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		50E7F67B309982DB00C8B3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+		50E7F685309982DB00C8B3CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			files = (
+			);
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		50E7F681309982DB00C8B3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E7F671309982DA00C8B3CC /* Reqmir */;
+			targetProxy = 50E7F680309982DB00C8B3CC /* PBXContainerItemProxy */;
+		};
+		50E7F68B309982DB00C8B3CC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 50E7F671309982DA00C8B3CC /* Reqmir */;
+			targetProxy = 50E7F68A309982DB00C8B3CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		50E7F68F309982DB00C8B3CC /* Debug configuration for PBXProject "Reqmir" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		50E7F690309982DB00C8B3CC /* Release configuration for PBXProject "Reqmir" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		50E7F692309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "Reqmir" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.reqmir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		50E7F693309982DB00C8B3CC /* Release configuration for PBXNativeTarget "Reqmir" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Manual;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 0.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.reqmir;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				REGISTER_APP_GROUPS = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		50E7F695309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "ReqmirTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.ReqmirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reqmir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqmir";
+			};
+			name = Debug;
+		};
+		50E7F696309982DB00C8B3CC /* Release configuration for PBXNativeTarget "ReqmirTests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.ReqmirTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Reqmir.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Reqmir";
+			};
+			name = Release;
+		};
+		50E7F698309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "ReqmirUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.ReqmirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Reqmir;
+			};
+			name = Debug;
+		};
+		50E7F699309982DB00C8B3CC /* Release configuration for PBXNativeTarget "ReqmirUITests" */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 26.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.fumkob.ReqmirUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 6.0;
+				TEST_TARGET_NAME = Reqmir;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		50E7F66D309982DA00C8B3CC /* Build configuration list for PBXProject "Reqmir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E7F68F309982DB00C8B3CC /* Debug configuration for PBXProject "Reqmir" */,
+				50E7F690309982DB00C8B3CC /* Release configuration for PBXProject "Reqmir" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		50E7F691309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "Reqmir" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E7F692309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "Reqmir" */,
+				50E7F693309982DB00C8B3CC /* Release configuration for PBXNativeTarget "Reqmir" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		50E7F694309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "ReqmirTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E7F695309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "ReqmirTests" */,
+				50E7F696309982DB00C8B3CC /* Release configuration for PBXNativeTarget "ReqmirTests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+		50E7F697309982DB00C8B3CC /* Build configuration list for PBXNativeTarget "ReqmirUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				50E7F698309982DB00C8B3CC /* Debug configuration for PBXNativeTarget "ReqmirUITests" */,
+				50E7F699309982DB00C8B3CC /* Release configuration for PBXNativeTarget "ReqmirUITests" */,
+			);
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		5066C421309984F5008643AF /* XCLocalSwiftPackageReference ".." */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ..;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5066C422309984F5008643AF /* ReqmirProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ReqmirProtocol;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 50E7F66A309982DA00C8B3CC /* Project object */;
+	validationLevel = 1;
+}
