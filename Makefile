@@ -4,7 +4,7 @@
 
 # iPhone Duo is the only iOS 27.1 device on the GitHub runner image.
 IOS_DEVICE ?= iPhone Duo
-IOS_OS ?= 27.1
+IOS_OS ?= latest
 # The scheme Xcode generates for the whole package; the per-library schemes have no tests.
 IOS_SCHEME ?= reqmir-Package
 
