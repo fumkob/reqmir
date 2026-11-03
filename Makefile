@@ -1,6 +1,6 @@
 .DEFAULT_GOAL := help
 
-.PHONY: help doctor build test test-ios
+.PHONY: help doctor build build-app test test-ios
 
 IOS_DEVICE ?= iPhone 18 Pro
 IOS_OS ?= latest
@@ -31,8 +31,13 @@ doctor: ## Show the Xcode, Swift, iOS runtimes, and simulator devices in use
 	@echo "Available simulator devices:"
 	@xcrun simctl list devices available iOS
 
-build: ## Build the Swift package
+build: build-app ## Build the Swift package and the Mac app
 	swift build
+
+# Signing is off so that the build works without a development team, both here and on CI.
+build-app: ## Build the Mac app without code signing
+	xcodebuild build -quiet -project App/Reqmir.xcodeproj -scheme Reqmir \
+		-destination 'generic/platform=macOS' CODE_SIGNING_ALLOWED=NO
 
 test: ## Run the package tests on macOS
 	swift test
