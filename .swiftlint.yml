@@ -1,0 +1,17 @@
+# The package manifests are formatted (SWIFT_FILES in the Makefile) but not linted.
+# Keep the two lists in step when adding a source directory.
+included:
+  - Sources
+  - Tests
+  - App
+
+# Only SwiftLint's default rules are on. Add opt-in rules one by one when the code calls for them;
+# skip layout rules (indentation, wrapping, spacing, import order), which swift-format owns.
+disabled_rules:
+  # swift-format adds trailing commas to multi-line collections (multiElementCollectionTrailingCommas).
+  - trailing_comma
+
+# Matches lineLength in .swift-format, so the two tools report the same limit.
+line_length:
+  warning: 100
+  ignores_urls: true
