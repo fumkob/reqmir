@@ -17,5 +17,6 @@ let package = Package(
         .target(name: "ReqmirKit", dependencies: ["ReqmirProtocol"]),
         .testTarget(name: "ReqmirProtocolTests", dependencies: ["ReqmirProtocol"]),
         .testTarget(name: "ReqmirKitTests", dependencies: ["ReqmirKit"]),
-    ]
+    ],
+    swiftLanguageModes: [.v6]
 )
