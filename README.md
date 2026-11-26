@@ -24,6 +24,9 @@ make build    # build the Swift package and the Mac app
 make build-app # build only the Mac app
 make test     # run the tests on macOS
 make test-ios # run the tests on the iOS simulator (override with IOS_DEVICE / IOS_OS)
+make lint     # run SwiftLint; warnings fail the run
+make format   # rewrite Swift files with swift-format
+make format-check # check formatting without rewriting files
 ```
 
 ## License
