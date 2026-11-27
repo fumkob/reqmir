@@ -59,7 +59,7 @@ test-ios: ## Run the package tests on the iOS simulator (IOS_DEVICE, IOS_OS)
 tools-resolve: $(TOOLS_STAMP) ## Resolve the Tools package and fetch the pinned SwiftLint
 
 $(TOOLS_STAMP): Tools/Package.swift Tools/Package.resolved
-	swift package --package-path Tools resolve
+	swift package --package-path Tools --force-resolved-versions resolve
 	@touch $@
 
 lint: $(TOOLS_STAMP) ## Run SwiftLint (warnings fail the run)
